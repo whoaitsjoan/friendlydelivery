@@ -477,7 +477,7 @@
                                     "Thanks!",
                                     "You're swell!"
                                 ],
-                                "avatarId": ""
+                                "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
                             },
                             "id": "9591e315-958b-47cf-8df8-1eac3cd9041c"
                         }
@@ -509,7 +509,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "friendlydelivery_insidehouse.png"
+            "filename": "friendlydelivery_insidehouse.png",
+            "tileColors": []
         },
         {
             "id": "1478b5a1-2422-4729-b27e-dc44ec003137",
@@ -519,7 +520,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "friendlydelivery_outsidehouse.png"
+            "filename": "friendlydelivery_outsidehouse.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2055,7 +2057,15 @@
             "filename": "gbs-var.png"
         }
     ],
-    "avatars": [],
+    "avatars": [
+        {
+            "id": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+            "name": "dog_portait_hat_2",
+            "width": 16,
+            "height": 16,
+            "filename": "dog_portait_hat_2.png"
+        }
+    ],
     "emotes": [
         {
             "id": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
