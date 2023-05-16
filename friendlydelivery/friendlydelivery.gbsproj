@@ -450,13 +450,34 @@
                     "symbol": "actor_1",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "68156e31-2fad-4688-93ef-842faa43df8b",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0
+                            },
+                            "id": "e22e7d52-98c3-475a-8206-a08a12aabd99"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                            },
+                            "id": "a6196a77-3d56-49a3-8668-3df28cb4b421"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
                                     "Thanks!",
                                     "You're swell!"
                                 ],
-                                "avatarId": ""
+                                "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
                             },
                             "id": "9591e315-958b-47cf-8df8-1eac3cd9041c"
                         }
@@ -480,6 +501,28 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "11c43cd2-e304-40a3-a174-1209c344dd38",
+            "name": "friendlydelivery_insidehouse",
+            "symbol": "bg_friendlydelivery_insideh",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_insidehouse.png",
+            "tileColors": []
+        },
+        {
+            "id": "1478b5a1-2422-4729-b27e-dc44ec003137",
+            "name": "friendlydelivery_outsidehouse",
+            "symbol": "bg_friendlydelivery_outside",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_outsidehouse.png",
+            "tileColors": []
+        },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
             "name": "placeholder",
@@ -1985,7 +2028,17 @@
             "type": "mod"
         }
     ],
-    "sounds": [],
+    "sounds": [
+        {
+            "id": "68156e31-2fad-4688-93ef-842faa43df8b",
+            "name": "treasure.wav",
+            "symbol": "sound_treasure_wav",
+            "filename": "treasure.wav",
+            "type": "wav",
+            "inode": "1125899908576151",
+            "_v": 1684259199465
+        }
+    ],
     "fonts": [
         {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
@@ -2004,7 +2057,15 @@
             "filename": "gbs-var.png"
         }
     ],
-    "avatars": [],
+    "avatars": [
+        {
+            "id": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+            "name": "dog_portait_hat_2",
+            "width": 16,
+            "height": 16,
+            "filename": "dog_portait_hat_2.png"
+        }
+    ],
     "emotes": [
         {
             "id": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
@@ -2087,9 +2148,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 52.79999923706055,
-        "worldScrollY": 93.5999984741211,
-        "zoom": 112.5,
+        "worldScrollX": 201,
+        "worldScrollY": 140,
+        "zoom": 162.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -2117,9 +2178,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            121,
-            150,
-            510
+            204,
+            252,
+            860
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
