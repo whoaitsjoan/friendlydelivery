@@ -4267,26 +4267,11 @@
                     ],
                     "updateScript": [
                         {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "input": [
-                                    "start"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
+                                "customEventId": "bfb19b9e-9b99-499c-a954-1e0a6363c5e2"
                             },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_CALL_CUSTOM_EVENT",
-                                        "args": {
-                                            "customEventId": "bfb19b9e-9b99-499c-a954-1e0a6363c5e2"
-                                        },
-                                        "id": "42d8f8c2-29e1-4271-9d40-762a308d35c0"
-                                    }
-                                ]
-                            },
-                            "id": "3241ad85-9cb2-472e-9d8f-e6f4e06ba8ae"
+                            "id": "42d8f8c2-29e1-4271-9d40-762a308d35c0"
                         }
                     ],
                     "hit1Script": [],
@@ -12894,7 +12879,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1810,
+        "worldScrollX": 1703,
         "worldScrollY": 0,
         "zoom": 400,
         "customColorsEnabled": true,
