@@ -884,8 +884,8 @@
             "autoFadeSpeed": 1,
             "id": "1d6cced2-0330-418b-9649-f3a938deb191",
             "symbol": "scene_2",
-            "x": 514.9692307692306,
-            "y": 390.41307692307754,
+            "x": 511.21923076923065,
+            "y": 394.16307692307754,
             "actors": [
                 {
                     "name": "Pete_Actor",
@@ -924,7 +924,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": true
+                                "__collapseElse": true,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
@@ -960,7 +961,8 @@
                             "args": {
                                 "variable": "2",
                                 "__collapseElse": true,
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__comment": true
                             },
                             "children": {
                                 "true": [
@@ -1030,7 +1032,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "81eda787-0851-4a56-b3cb-5c588a256c45",
-                    "x": 12,
+                    "x": 11,
                     "y": 14
                 },
                 {
@@ -1068,7 +1070,8 @@
                                 },
                                 "otherActorId": "$self$",
                                 "__collapseElse": false,
-                                "__disableElse": false
+                                "__disableElse": false,
+                                "__comment": true
                             },
                             "children": {
                                 "true": [
@@ -1136,6 +1139,112 @@
                     "id": "9e8253a2-f253-4d28-97a5-55e7c3cda58f",
                     "x": 4,
                     "y": 14
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_6",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "2ea84d1f-ec35-4c0c-9c2e-349204bb7951"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+                            "args": {
+                                "actorId": "player",
+                                "operator": "<=",
+                                "distance": {
+                                    "type": "number",
+                                    "value": 1
+                                },
+                                "otherActorId": "$self$",
+                                "__collapseElse": false,
+                                "__disableElse": false,
+                                "__collapse": false,
+                                "__comment": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "1",
+                                            "__collapse": false
+                                        },
+                                        "id": "edc9d1b6-beea-45ae-b521-79d9c14f6326"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_FALSE",
+                                        "args": {
+                                            "variable": "2",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_TRUE",
+                                                    "args": {
+                                                        "variable": "2"
+                                                    },
+                                                    "id": "461d8935-97bc-46ef-ad5f-cecfec6b110f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+                                                    },
+                                                    "id": "cf5aa546-5911-48c8-a82a-43a68a9d7a20"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_FALSE",
+                                                    "args": {
+                                                        "variable": "2"
+                                                    },
+                                                    "id": "8932ff06-ce16-43a9-afee-4c9db01d4716"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "d03ecabc-d9db-43f7-9eed-7eaaf604eb35"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "1"
+                                        },
+                                        "id": "e905a0e6-48eb-46bc-979e-4f076c94b182"
+                                    }
+                                ]
+                            },
+                            "id": "df88caba-8196-4bf0-8842-56aa92fde07c"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "12fbf879-302e-43c1-8b55-2995b36aaec6",
+                    "x": 17,
+                    "y": 14
                 }
             ],
             "triggers": [
@@ -1195,8 +1304,45 @@
                     "symbol": "trigger_3",
                     "width": 2,
                     "height": 3,
-                    "script": [],
-                    "leaveScript": []
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Nohoomansville"
+                                            ],
+                                            "avatarId": "350eb43e-9749-48fb-a346-2acef91bb24d"
+                                        },
+                                        "id": "c633bfff-fcb8-4131-99df-7f070ca3291a"
+                                    }
+                                ]
+                            },
+                            "id": "7e151822-efcb-436a-99e2-69c0242f9dcd"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "63eb7140-4d03-453e-9239-14b295613dc2"
+                        }
+                    ]
                 }
             ],
             "script": [
@@ -1238,7 +1384,7 @@
                         "actorId": "$self$",
                         "x": {
                             "type": "number",
-                            "value": 8
+                            "value": 7
                         },
                         "y": {
                             "type": "number",
@@ -2281,8 +2427,8 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "1d6cced2-0330-418b-9649-f3a938deb191",
-                                            "x": 8,
-                                            "y": 15,
+                                            "x": 4,
+                                            "y": 14,
                                             "direction": "right",
                                             "fadeSpeed": "2"
                                         },
@@ -14263,6 +14409,13 @@
             "width": 16,
             "height": 16,
             "filename": "pete_portrait.png"
+        },
+        {
+            "id": "350eb43e-9749-48fb-a346-2acef91bb24d",
+            "name": "right_arrow",
+            "width": 16,
+            "height": 16,
+            "filename": "right_arrow.png"
         }
     ],
     "emotes": [
@@ -14348,6 +14501,11 @@
             "symbol": "var_emoteon"
         },
         {
+            "id": "3",
+            "name": "NapSequence",
+            "symbol": "var_napsequence"
+        },
+        {
             "id": "1d6cced2-0330-418b-9649-f3a938deb191__L0",
             "name": "EmoteOn",
             "symbol": "var_emoteon_0"
@@ -14356,11 +14514,6 @@
             "id": "45bf4ac2-ab93-45c2-8ab5-71ef78337149__L0",
             "name": "NapTF",
             "symbol": "var_naptf"
-        },
-        {
-            "id": "3",
-            "name": "NapSequence",
-            "symbol": "var_napsequence"
         },
         {
             "id": "81eda787-0851-4a56-b3cb-5c588a256c45__L0",
@@ -14380,15 +14533,15 @@
     ],
     "settings": {
         "startSceneId": "1d6cced2-0330-418b-9649-f3a938deb191",
-        "startX": 3,
+        "startX": 2,
         "startY": 14,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1124,
-        "worldScrollY": 1315,
+        "worldScrollX": 1400,
+        "worldScrollY": 1316,
         "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
