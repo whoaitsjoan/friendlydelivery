@@ -4269,7 +4269,7 @@
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
+                                "customEventId": "bfb19b9e-9b99-499c-a954-1e0a6363c5e2"
                             },
                             "id": "42d8f8c2-29e1-4271-9d40-762a308d35c0"
                         }
@@ -9365,7 +9365,8 @@
             "height": 18,
             "imageWidth": 1288,
             "imageHeight": 144,
-            "filename": "town_temp.png"
+            "filename": "town_temp.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -12878,8 +12879,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4192,
-        "worldScrollY": 1644,
+        "worldScrollX": 1703,
+        "worldScrollY": 0,
         "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
