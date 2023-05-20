@@ -3447,19 +3447,6 @@
                     "id": "552c0dc5-3b7f-4e4a-baf6-dd22234e1e8f"
                 },
                 {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
-                    "args": {
-                        "type": "crash",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 200,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 0
-                    },
-                    "id": "f9aac62e-1720-42ba-9f32-483d06e8a44e"
-                },
-                {
                     "command": "EVENT_ACTOR_EMOTE",
                     "args": {
                         "actorId": "$self$",
@@ -6762,6 +6749,13 @@
                                                     "id": "eefad3fb-b13d-49d4-a2b2-5d2b6b22d3a8"
                                                 },
                                                 {
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "7872c5c9-9512-425e-8fd0-3243acff5a31"
+                                                    },
+                                                    "id": "887b99e0-433f-4716-98b4-d25b4ab95ad8"
+                                                },
+                                                {
                                                     "command": "EVENT_ACTOR_MOVE_TO",
                                                     "args": {
                                                         "actorId": "$self$",
@@ -6794,13 +6788,6 @@
                                                         "useCollisions": false
                                                     },
                                                     "id": "6e40f036-4da5-4b9e-aa5b-a191da040a71"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_HIDE",
-                                                    "args": {
-                                                        "actorId": "7872c5c9-9512-425e-8fd0-3243acff5a31"
-                                                    },
-                                                    "id": "887b99e0-433f-4716-98b4-d25b4ab95ad8"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
@@ -11665,7 +11652,18 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "friendlydelivery_party_bigfloor.png"
+            "filename": "friendlydelivery_party_bigfloor.png",
+            "tileColors": []
+        },
+        {
+            "id": "c8061036-aac0-411b-90bf-b02f616f1066",
+            "name": "friendlydelivery_party_nodecorations",
+            "symbol": "bg_friendlydelivery_party_n",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_party_nodecorations.png"
         },
         {
             "id": "05b99f31-734f-49e4-8526-ade0f0878c32",
@@ -20632,7 +20630,7 @@
                                             "flipY": false,
                                             "objPalette": "OBP0",
                                             "paletteIndex": 0,
-                                            "priority": true
+                                            "priority": false
                                         },
                                         {
                                             "id": "e9ed326e-91d7-4473-9e67-b11601902a35",
@@ -23584,7 +23582,7 @@
             "symbol": "sound_treasure_wav",
             "filename": "treasure.wav",
             "type": "wav",
-            "inode": "1125899908576151",
+            "inode": "1125899908049036",
             "_v": 1684259199465
         }
     ],
@@ -23815,9 +23813,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 158,
-        "worldScrollY": 0,
-        "zoom": 212.5,
+        "worldScrollX": 1886.4000244140625,
+        "worldScrollY": 340.79998779296875,
+        "zoom": 150,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -23845,9 +23843,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            202,
-            251,
-            863
+            120,
+            149,
+            512
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

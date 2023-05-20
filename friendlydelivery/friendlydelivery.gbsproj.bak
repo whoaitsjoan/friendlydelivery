@@ -9963,8 +9963,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "175926a5-3702-41f5-8345-c578439e1c43",
-                        "x": 0,
-                        "y": 0,
+                        "x": 9,
+                        "y": 9,
                         "direction": "right",
                         "fadeSpeed": 4
                     },
@@ -11665,7 +11665,18 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "friendlydelivery_party_bigfloor.png"
+            "filename": "friendlydelivery_party_bigfloor.png",
+            "tileColors": []
+        },
+        {
+            "id": "c8061036-aac0-411b-90bf-b02f616f1066",
+            "name": "friendlydelivery_party_nodecorations",
+            "symbol": "bg_friendlydelivery_party_n",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_party_nodecorations.png"
         },
         {
             "id": "05b99f31-734f-49e4-8526-ade0f0878c32",
@@ -20632,7 +20643,7 @@
                                             "flipY": false,
                                             "objPalette": "OBP0",
                                             "paletteIndex": 0,
-                                            "priority": true
+                                            "priority": false
                                         },
                                         {
                                             "id": "e9ed326e-91d7-4473-9e67-b11601902a35",
@@ -23584,7 +23595,7 @@
             "symbol": "sound_treasure_wav",
             "filename": "treasure.wav",
             "type": "wav",
-            "inode": "1125899908576151",
+            "inode": "1125899908049036",
             "_v": 1684259199465
         }
     ],
@@ -23815,8 +23826,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 158,
-        "worldScrollY": 0,
+        "worldScrollX": 1392,
+        "worldScrollY": 900,
         "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -23845,9 +23856,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            202,
-            251,
-            863
+            120,
+            149,
+            512
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
