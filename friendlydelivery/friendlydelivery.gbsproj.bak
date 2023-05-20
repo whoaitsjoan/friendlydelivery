@@ -3506,8 +3506,8 @@
             "autoFadeSpeed": 1,
             "id": "4c5e227b-3334-4ced-a8cc-6ebad901494e",
             "symbol": "scene_4",
-            "x": 492.1730769230768,
-            "y": 544.9230769230778,
+            "x": 491.70248868778265,
+            "y": 545.393665158372,
             "actors": [],
             "triggers": [],
             "script": [
@@ -19647,8 +19647,8 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 6,
-                                            "priority": true
+                                            "paletteIndex": 0,
+                                            "priority": false
                                         },
                                         {
                                             "id": "e9ed326e-91d7-4473-9e67-b11601902a35",
@@ -22600,7 +22600,7 @@
             "symbol": "sound_treasure_wav",
             "filename": "treasure.wav",
             "type": "wav",
-            "inode": "1125899908576151",
+            "inode": "1125899908049036",
             "_v": 1684259199465
         }
     ],
@@ -22818,16 +22818,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "143137bc-d8ca-4907-a592-c73dd678dbef",
-        "startX": 100,
-        "startY": 11,
+        "startSceneId": "175926a5-3702-41f5-8345-c578439e1c43",
+        "startX": 9,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3183,
-        "worldScrollY": 699,
+        "worldScrollX": 866.4000244140625,
+        "worldScrollY": 900,
         "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -22856,9 +22856,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            202,
-            251,
-            863
+            120,
+            149,
+            512
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
