@@ -6244,7 +6244,7 @@
             "y": 538.3269230769235,
             "actors": [
                 {
-                    "name": "Maysie",
+                    "name": "Brie",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "5ed7f23a-a1da-4603-b2cc-f46318d38cb7",
@@ -6256,7 +6256,209 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_7",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "9",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Are you Petey's\nnew assistant?"
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "6ad00605-fc69-4365-b46b-fa38885681b5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Yes, ma'am!",
+                                                "Mice to meet \nyou!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                        },
+                                        "id": "42c478fe-4c50-4062-acc1-d273c14466a7"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                                        },
+                                        "id": "9161d7c0-17c9-4c5c-a049-aaf788c7ae92"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                                        },
+                                        "id": "e13bb982-87d5-46c7-a685-ac50bbf116a8"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Sorry, miss. I\ndon't know what",
+                                                "came over me."
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                        },
+                                        "id": "26eb30ab-b83d-4aa6-b148-a9d3c0f8d54b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Right... well...\nMice to meet you",
+                                                "too.",
+                                                "Do you have my \npackage?"
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "17e6608e-2050-473a-af00-18d1755515eb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ah, yes!",
+                                                "Are you Miss\nSqueakal?"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                        },
+                                        "id": "da8a068f-c389-4700-bbdb-f17b4690b4b6"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The one and\nonly!",
+                                                "Surely, you've\nheard of",
+                                                "Brie-lliant\nGreeting Cards?"
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "c8c39d12-a826-41b0-a21e-276ffa9fd132"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "21102cef-6801-45de-b60a-24797b9bd7cd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Wow!",
+                                                "Yes!",
+                                                "My parents\nbought me a",
+                                                "'Cheddar days \nare coming' card",
+                                                "when I failed\nmy driver's\nlicense!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                        },
+                                        "id": "e859bde6-37f7-42b6-8f14-9e4d019edcef"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                        },
+                                        "id": "cc97fba0-b6bc-4277-9014-9807cb146759"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Marvelous, \ndarling.",
+                                                "Cards for every\npurpose...",
+                                                "That's the\nBrie-lliant way."
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "fc386142-3355-4d62-8cff-521a1a1d97cc"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+                                        },
+                                        "id": "e1863343-1494-40b9-9a50-50d60e8d8aa9"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                                        },
+                                        "id": "aa64b893-d27b-4b15-b422-b3812938f5b3"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "...My package,\nboy?"
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "98ade85a-34f0-42f1-bdd7-2c5b148f19c0"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "8c91f389-22b0-428f-9c17-b5df82dbe830"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh, yes!",
+                                                "Here you are,\nMiss Squeakal!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                        },
+                                        "id": "cc3b8ebb-a6d3-4168-a12e-8b05a6175c73"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                        },
+                                        "id": "a4c1f2d7-58e7-4929-9daf-b1ee07bc663a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Amazing."
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "8c62cfe1-7756-4756-b3d7-089f2cd5d8b9"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "027fe45b-13ca-48e8-a659-e9cae8315077"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -6445,7 +6647,7 @@
                                                     "command": "EVENT_SWITCH_SCENE",
                                                     "args": {
                                                         "sceneId": "8b863f0b-7213-4d21-8dfd-41f8c8d91d31",
-                                                        "x": 7,
+                                                        "x": 4,
                                                         "y": 11,
                                                         "direction": "",
                                                         "fadeSpeed": 3,
@@ -6672,13 +6874,104 @@
                     "y": 17
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "39e6a108-b477-46cd-b523-cb1e035ee73e",
+                    "x": 52,
+                    "y": 10,
+                    "symbol": "trigger_4",
+                    "width": 4,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_MOVE_CANCEL",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "66e1fada-8d32-4c80-ac6d-134551c63a5a"
+                        },
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "9",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "7872c5c9-9512-425e-8fd0-3243acff5a31",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "0737ac40-a8c5-44c9-a4bd-8c6c9767cfeb"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_INPUT_SCRIPT",
+                                        "args": {
+                                            "input": [
+                                                "left",
+                                                "up",
+                                                "down",
+                                                "right"
+                                            ],
+                                            "override": true,
+                                            "__scriptTabs": "press",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": []
+                                        },
+                                        "id": "1d3a5a49-8608-4ea4-b680-888ef928863d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Yoohoo!",
+                                                "Over here, \ndelivery boy!"
+                                            ],
+                                            "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                                        },
+                                        "id": "3075349c-c791-454b-ac42-a351ee5926e6"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+                                        },
+                                        "id": "03fcfd62-31af-4487-9027-99e2ea6308b8"
+                                    },
+                                    {
+                                        "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                        "args": {
+                                            "input": [
+                                                "left",
+                                                "up",
+                                                "down",
+                                                "right"
+                                            ]
+                                        },
+                                        "id": "ce2e2325-477c-4306-a02a-18495b4b89dc"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "ddbdaef8-3b65-419a-bd6d-51443823dbd3"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_IF_FALSE",
                     "args": {
                         "variable": "5",
-                        "__collapseElse": true
+                        "__collapseElse": true,
+                        "__comment": true
                     },
                     "children": {
                         "true": [
@@ -6775,8 +7068,8 @@
                                         "Ah, fantastic!",
                                         "Both fine\nfolks!",
                                         "You'll be in\ngreat hands,\nPubby.",
-                                        "Miss Squeakal\ncan often be \nfound by the",
-                                        "community\nlibrary.",
+                                        "Miss Squeakal\ncan often be \nfound by her",
+                                        "mansion.",
                                         "As for Mx.\nFeyline,",
                                         "they can often\nbe found in ",
                                         "front of\nthe school."
@@ -6790,7 +7083,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "Miss Squeakal..\noutside the\nlibrary...",
+                                        "Miss Squeakal..\noutside the\nmansion...",
                                         "Mx. Feyline...\noutside the\nschool...",
                                         "Got it!"
                                     ],
@@ -7514,30 +7807,7 @@
             "y": 798.75,
             "actors": [
                 {
-                    "name": "Bob",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_11",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "38d781b5-26ae-4df7-b8fc-7fab00448043",
-                    "x": 5,
-                    "y": 5
-                },
-                {
-                    "name": "Phyllis",
+                    "name": "Caterine",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -7556,11 +7826,11 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
-                    "x": 13,
-                    "y": 5
+                    "x": 16,
+                    "y": 11
                 },
                 {
-                    "name": "Pelly",
+                    "name": "Brie",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -7579,31 +7849,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "21348f00-975d-4876-9b87-7dddbc329054",
-                    "x": 9,
-                    "y": 3
-                },
-                {
-                    "name": "Table",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_14",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "2f6a272e-9fa3-4314-b1e7-48d7f29e70f7",
-                    "x": 9,
-                    "y": 6
+                    "x": 12,
+                    "y": 11
                 },
                 {
                     "name": "Pete",
@@ -7625,7 +7872,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "cd35ea26-ea46-49da-a87c-cf375478a667",
-                    "x": 12,
+                    "x": 0,
                     "y": 11
                 },
                 {
@@ -7943,26 +8190,26 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -8051,25 +8298,56 @@
             "y": 70.79629629629629,
             "actors": [
                 {
-                    "name": "",
+                    "name": "PressStart_Actor",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "e3f6953c-1dc7-401c-b306-04e228162e7c",
-                    "direction": "down",
+                    "direction": "right",
                     "moveSpeed": 1,
-                    "animSpeed": 255,
+                    "animSpeed": 127,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
                     "symbol": "actor_10",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "0eeeb5fa-8c56-410b-b9eb-1cc17ce926a2"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.2,
+                                "frames": 30
+                            },
+                            "id": "959cec81-b335-44be-8782-1dab7deca762"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "b13dccfe-24df-4b8a-92dd-ab365a872cd7"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.2,
+                                "frames": 30
+                            },
+                            "id": "b7a8c0bb-0491-4b71-a200-6d0b1a0a948e"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "10239d4a-0b0d-48d0-9ca0-d07e13204e61",
-                    "x": 5,
+                    "x": 9,
                     "y": 16
                 }
             ],
@@ -8098,7 +8376,7 @@
                                 "args": {
                                     "sceneId": "4c5e227b-3334-4ced-a8cc-6ebad901494e",
                                     "x": 9,
-                                    "y": 9,
+                                    "y": 8,
                                     "direction": "down",
                                     "fadeSpeed": "2",
                                     "__collapse": false
@@ -21434,7 +21712,7 @@
             "symbol": "sound_treasure_wav",
             "filename": "treasure.wav",
             "type": "wav",
-            "inode": "1125899908049036",
+            "inode": "1125899908576151",
             "_v": 1684259199465
         }
     ],
@@ -21597,8 +21875,8 @@
         },
         {
             "id": "7",
-            "name": "Maysie_Delivered",
-            "symbol": "var_maysie_delivered"
+            "name": "Brie_Delivered",
+            "symbol": "var_brie_delivered"
         },
         {
             "id": "8",
@@ -21607,8 +21885,8 @@
         },
         {
             "id": "9",
-            "name": "Maysie_Met",
-            "symbol": "var_maysie_met"
+            "name": "Brie_Met",
+            "symbol": "var_brie_met"
         },
         {
             "id": "10",
@@ -21660,8 +21938,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1292.800048828125,
-        "worldScrollY": 900,
+        "worldScrollX": 377,
+        "worldScrollY": 354,
         "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -21690,9 +21968,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            120,
-            149,
-            512
+            202,
+            251,
+            863
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
