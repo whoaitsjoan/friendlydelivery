@@ -8513,7 +8513,7 @@
         },
         {
             "name": "Party",
-            "backgroundId": "5948bbb2-b991-4e21-abf3-3b19f089c72d",
+            "backgroundId": "3e44c817-615e-49e6-b9a0-96b749e83ac0",
             "width": 20,
             "height": 18,
             "type": "PLATFORM",
@@ -8909,8 +8909,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
-                    "x": 16,
-                    "y": 16
+                    "x": 17,
+                    "y": 9
                 },
                 {
                     "name": "Brie",
@@ -8932,8 +8932,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "21348f00-975d-4876-9b87-7dddbc329054",
-                    "x": 8,
-                    "y": 16
+                    "x": 10,
+                    "y": 4
                 },
                 {
                     "name": "Pete",
@@ -8984,7 +8984,7 @@
                         "actorId": "$self$",
                         "x": {
                             "type": "number",
-                            "value": 4
+                            "value": 3
                         },
                         "y": {
                             "type": "number",
@@ -9845,6 +9845,26 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "b",
+                            "a",
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": []
+                    },
+                    "id": "7b7ee31e-5f9f-4afa-a892-7c7a195d15fe"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
                             "start"
                         ],
                         "override": true,
@@ -9852,6 +9872,21 @@
                     },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "left",
+                                        "up",
+                                        "down",
+                                        "right",
+                                        "select",
+                                        "a"
+                                    ]
+                                },
+                                "id": "88db7cff-fd08-403c-912b-9c6b5e9c88f8"
+                            },
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
@@ -9928,8 +9963,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "175926a5-3702-41f5-8345-c578439e1c43",
-                        "x": 0,
-                        "y": 0,
+                        "x": 9,
+                        "y": 9,
                         "direction": "right",
                         "fadeSpeed": 4
                     },
@@ -11621,6 +11656,16 @@
             "imageHeight": 144,
             "filename": "friendlydelivery_party.png",
             "tileColors": []
+        },
+        {
+            "id": "3e44c817-615e-49e6-b9a0-96b749e83ac0",
+            "name": "friendlydelivery_party_bigfloor",
+            "symbol": "bg_friendlydelivery_party_b",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_party_bigfloor.png"
         },
         {
             "id": "05b99f31-734f-49e4-8526-ade0f0878c32",
@@ -20586,7 +20631,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 6,
+                                            "paletteIndex": 0,
                                             "priority": true
                                         },
                                         {
@@ -23770,7 +23815,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 555,
+        "worldScrollX": 158,
         "worldScrollY": 0,
         "zoom": 212.5,
         "customColorsEnabled": true,

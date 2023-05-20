@@ -593,45 +593,6 @@
                     "y": 14
                 },
                 {
-                    "name": "PauseActor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_19",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "fa9450fe-2db8-42a9-9c10-bd44c49e59b6"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "8bf35cb5-c444-464b-a3ef-5772f6ad05f3"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b9ebb4c1-6a3a-4212-843b-e42953882644",
-                    "x": 0,
-                    "y": 1
-                },
-                {
                     "name": "PostOffice_Actor",
                     "frame": 0,
                     "animate": false,
@@ -2174,45 +2135,6 @@
                     "id": "12fbf879-302e-43c1-8b55-2995b36aaec6",
                     "x": 17,
                     "y": 12
-                },
-                {
-                    "name": "PauseActor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_18",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "e80462ab-9228-4e35-99d0-87e656533d1e"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "4d9b1761-e556-43b9-866a-9860d3917cb9"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "9c8e7239-9da6-49b6-a834-124d4e1cfb0d",
-                    "x": 0,
-                    "y": 1
                 }
             ],
             "triggers": [
@@ -3328,45 +3250,6 @@
                     "id": "45bf4ac2-ab93-45c2-8ab5-71ef78337149",
                     "x": 1,
                     "y": 12
-                },
-                {
-                    "name": "PauseActor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_17",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "5521d278-92aa-4653-8cbc-c78b1989f19d"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "32c20637-2479-4e26-a3bb-408376f74115"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "8e9f2a83-28c3-4673-996f-2141c39c11c5",
-                    "x": 0,
-                    "y": 1
                 }
             ],
             "triggers": [
@@ -3546,20 +3429,6 @@
                         "avatarId": ""
                     },
                     "id": "727b5b2a-62b9-485e-bbcb-94ed8d9c4e58"
-                },
-                {
-                    "command": "EVENT_SOUND_PLAY_EFFECT",
-                    "args": {
-                        "type": "68156e31-2fad-4688-93ef-842faa43df8b",
-                        "priority": "medium",
-                        "pitch": 4,
-                        "frequency": 210,
-                        "duration": 0.5,
-                        "wait": true,
-                        "effect": 0,
-                        "__collapse": false
-                    },
-                    "id": "bbbcf6f3-fc29-4ad6-94bb-e7041a40e598"
                 },
                 {
                     "command": "EVENT_TEXT",
@@ -6654,8 +6523,9 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "(I should give\nthis letter to",
-                                                                        "Mister Pete!)"
+                                                                        "All delivered!",
+                                                                        "I should give\nMiss Squeakal's",
+                                                                        "letter to\nMister Pete!"
                                                                     ],
                                                                     "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
                                                                 },
@@ -6946,7 +6816,7 @@
                                                     "command": "EVENT_SWITCH_SCENE",
                                                     "args": {
                                                         "sceneId": "8b863f0b-7213-4d21-8dfd-41f8c8d91d31",
-                                                        "x": 4,
+                                                        "x": 0,
                                                         "y": 11,
                                                         "direction": "",
                                                         "fadeSpeed": 3,
@@ -7640,7 +7510,7 @@
                                         "args": {
                                             "variable": "8",
                                             "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -7663,12 +7533,13 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "(I should give\nthis letter to",
-                                                                        "Mister Pete!)"
+                                                                        "All delivered!",
+                                                                        "I should give\nMiss Squeakal's",
+                                                                        "letter to\nMister Pete!"
                                                                     ],
                                                                     "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
                                                                 },
-                                                                "id": "740bc371-f771-461d-bafc-bad750038f2f"
+                                                                "id": "c67786f3-9d42-4056-ab61-0edb4f1b533a"
                                                             }
                                                         ],
                                                         "false": []
@@ -7877,45 +7748,6 @@
                     "id": "3492ee0e-58b0-49b3-a54a-be351ae568a2",
                     "x": 118,
                     "y": 11
-                },
-                {
-                    "name": "PauseActor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_21",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "b6072596-00e8-40b1-839f-cec5a4a336f2"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "92c7a12e-e082-40d5-902e-d779b1ad766c"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c6cd9d49-a62a-4798-9df3-440c06ec66aa",
-                    "x": 0,
-                    "y": 1
                 },
                 {
                     "name": "Car_Actor",
@@ -8459,47 +8291,7 @@
             "symbol": "scene_6",
             "x": 672,
             "y": 347.75,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_23",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "d5860c40-7bb7-4e81-b66a-60621a1209c7"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "be5b23a7-b3b2-438c-a005-df6d16e54e1a"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "dbfa9dbd-6cf5-4007-af05-fb888e504719",
-                    "x": 0,
-                    "y": 1
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "script": [
                 {
@@ -8721,12 +8513,14 @@
         },
         {
             "name": "Party",
-            "backgroundId": "5948bbb2-b991-4e21-abf3-3b19f089c72d",
+            "backgroundId": "3e44c817-615e-49e6-b9a0-96b749e83ac0",
             "width": 20,
             "height": 18,
             "type": "PLATFORM",
             "paletteIds": [],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                "default-sprite"
+            ],
             "collisions": [
                 0,
                 0,
@@ -9099,8 +8893,8 @@
                     "name": "Caterine",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
+                    "spriteSheetId": "d16494d5-3836-471d-b480-d181ccea709e",
+                    "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -9115,15 +8909,15 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
-                    "x": 16,
-                    "y": 11
+                    "x": 17,
+                    "y": 9
                 },
                 {
                     "name": "Brie",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
+                    "spriteSheetId": "5ed7f23a-a1da-4603-b2cc-f46318d38cb7",
+                    "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -9138,15 +8932,15 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "21348f00-975d-4876-9b87-7dddbc329054",
-                    "x": 12,
-                    "y": 11
+                    "x": 10,
+                    "y": 4
                 },
                 {
                     "name": "Pete",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
+                    "spriteSheetId": "6daac0b8-7013-4c26-b034-c4b797e282e7",
+                    "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -9161,54 +8955,452 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "cd35ea26-ea46-49da-a87c-cf375478a667",
-                    "x": 0,
+                    "x": 1,
                     "y": 11
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_22",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "7782d5ab-1504-45d8-8583-b986e8684666"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "ce438870-849f-4196-a1b3-a771d3cfd536"
-                            },
-                            "id": "d6395154-a584-44ac-b088-8ca6fd516b12"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "021357a1-e8aa-4192-8919-658dcaed1aa7",
-                    "x": 0,
-                    "y": 1
                 }
             ],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "x": {
+                            "type": "number",
+                            "value": 10
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 11
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": false
+                    },
+                    "id": "fe67bfb7-747f-470a-b2dc-e29a72d7a983"
+                },
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "$self$",
+                        "x": {
+                            "type": "number",
+                            "value": 3
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 11
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": false
+                    },
+                    "id": "665fd6c0-2e4c-4054-a8af-2bb4357b2c94"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "SURPRISE!"
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "9d7f2084-1e0a-4eaf-89bb-939c0209ad7d"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "...PRISE!"
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "d5d126d0-62d6-4b90-a8a9-67655b539178"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                    },
+                    "id": "ba51667d-448c-419d-838c-f859efa2ffac"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                    },
+                    "id": "96f5691a-5dbc-4171-9aba-b1657903a8e2"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "direction": {
+                            "type": "direction",
+                            "value": "right"
+                        }
+                    },
+                    "id": "23e23ed5-f626-4a7a-981c-8e57fc7af69c"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "What did I say\nabout the count",
+                            "of three, Fey?",
+                            "ON THREE.",
+                            "Not after."
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "b5b771fc-14d3-4475-b4dc-b2e647b591a4"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "5a48d6c3-1b52-4696-89cd-fee2b0e272c3"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Same thing."
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "f20a6e5a-dfbc-4976-be3c-60328cf053ef"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Congrats on your\nretirement, \nPete!"
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "76b967e0-b581-48da-9b9b-badcafc277c3"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "direction": {
+                            "type": "direction",
+                            "value": "left"
+                        }
+                    },
+                    "id": "c7dc5539-e2d5-457a-8568-be606acd56b6"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Yes, \ncongratulations\nPetey."
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "e2660864-f48c-42c4-bc43-61d35b93eb18"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                    },
+                    "id": "8867faac-d3ca-4250-9bc9-8d94667603e5"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+                    },
+                    "id": "702f1ba3-7405-4867-9c15-c6986455397a"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Happy \nretirement,\nMister Pete!"
+                        ],
+                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                    },
+                    "id": "58143b73-0e86-4cd4-8f4f-266b23cfc594"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "player",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "a842dab4-62f1-4365-afa2-850530a33fcc"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Thank you all.",
+                            "This is too\nkind."
+                        ],
+                        "avatarId": "13a633b9-0ebf-4515-9082-b4d95b4ae677"
+                    },
+                    "id": "370729c4-e02e-4498-8db0-27e8cebbb072"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Nothing's too\nmuch for our",
+                            "best postal\npelican!",
+                            "...",
+                            "And our new\ndelivery dog!"
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "1c3d8783-70e1-43d6-833a-b8ee5c6db4c3"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Fey's right.",
+                            "We appreciate\neverything",
+                            "you've done for\nus.",
+                            "And everything\nyou will do,",
+                            "Pubby."
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "32eae571-bb3d-4031-8480-e16b26576741"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                    },
+                    "id": "dd709f1d-631f-43f9-8608-269970289d76"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "0b4abbee-7b06-4c89-9db6-6a3ec1d5624d"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Nyahahaha!",
+                            "That's right,\nPubby!",
+                            "This party's\nfor you too!",
+                            "Welcome to\nNohoomansville!"
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "387b656b-962d-4868-8495-b76d1cf695d0"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+                    },
+                    "id": "31b55bf3-5796-4c43-be52-fcd3c844a9d3"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "6dc932c0-e7d5-4fec-be05-587459df6889"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Yes, you've done\njust great",
+                            "today, son.",
+                            "Put your fears\naside.",
+                            "I have every\nfaith you'll be",
+                            "the next best\ndelivery animal."
+                        ],
+                        "avatarId": "13a633b9-0ebf-4515-9082-b4d95b4ae677"
+                    },
+                    "id": "abf3a17f-2818-497e-bd4d-7e626399e63d"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "What Pete said!"
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "b4966f97-b4ba-4de4-bf5c-115bf5dc243a"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Yes, what Petey\nsaid."
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "cc88a2cc-6c29-47c2-8992-b5ea4e8125e4"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Thank you,\neveryone!",
+                            "I'll do my best!"
+                        ],
+                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                    },
+                    "id": "d2ed544a-656b-4221-a26d-189e49caa891"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "4594e8f5-6661-476b-ae9d-42566d17dc8b"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                        "__collapse": false
+                    },
+                    "id": "a5ae8deb-35d1-4015-82be-0199e88b08ef"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "b4edf28e-b33b-4442-ad97-bcaa8be0eaa4"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                    },
+                    "id": "85716f39-0db4-4fe3-ad47-4ec6069c7f2e"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Now, please help\nyourselves to",
+                            "some EZ-Spray \ncheese.",
+                            "There's plenty\nto go around."
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "a4d048d3-498e-43b0-a4d1-e5d268fe72f6"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Aw man, I'm\nlactose",
+                            "intolerant."
+                        ],
+                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                    },
+                    "id": "39187320-4b4f-4f95-a2ea-5be72f5e0aec"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                    },
+                    "id": "1f3893b0-963e-4989-8bfc-e908e71a9de6"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                    },
+                    "id": "ee472bf6-1ea2-4373-966f-1c6c0b04775b"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "21348f00-975d-4876-9b87-7dddbc329054",
+                        "direction": {
+                            "type": "direction",
+                            "value": "right"
+                        }
+                    },
+                    "id": "afb0b7f8-c9ea-4cbf-b18b-f06b277d3ab8"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "I asked you\nabout your",
+                            "dietary\nrestrictions!",
+                            "And you said\nyou had no\nweaknesses!"
+                        ],
+                        "avatarId": "21b96b3f-7f0a-4a5a-8c8b-205d16b92b04"
+                    },
+                    "id": "83d72a9b-10fa-468e-8cdd-19686f162bb7"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "cd35ea26-ea46-49da-a87c-cf375478a667",
+                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                    },
+                    "id": "0ad6410a-b577-4821-a235-77c44596fa6f"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                    },
+                    "id": "dc8dab25-5726-4083-92e7-c749774ee4c3"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "45bb8150-7717-4d82-abed-38b79ddf0bb2",
+                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                    },
+                    "id": "a24df624-36a7-4624-84d5-03883afd98ad"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "b661cd90-89f1-4fa0-a55e-d02aeac78128",
+                        "x": 9,
+                        "y": 8,
+                        "direction": "right",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "3ad7f674-1457-45b2-b8b8-4c9e56e3409d"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "1eb78bd9-ddcb-4af6-bf1f-8257f20b31e2"
         },
         {
             "name": "Title Screen",
@@ -9653,6 +9845,26 @@
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "b",
+                            "a",
+                            "select"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": []
+                    },
+                    "id": "7b7ee31e-5f9f-4afa-a892-7c7a195d15fe"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
                             "start"
                         ],
                         "override": true,
@@ -9660,6 +9872,21 @@
                     },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "left",
+                                        "up",
+                                        "down",
+                                        "right",
+                                        "select",
+                                        "a"
+                                    ]
+                                },
+                                "id": "88db7cff-fd08-403c-912b-9c6b5e9c88f8"
+                            },
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
@@ -9683,73 +9910,71 @@
             "playerSpriteSheetId": "5feca226-dc4b-427e-ad1c-abe0d5d87ec8"
         },
         {
-            "name": "Pause",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "name": "Credits",
+            "backgroundId": "7cdc19d1-5f83-4cb0-9c9a-bb4789446ee4",
             "width": 20,
             "height": 18,
-            "type": "POINTNCLICK",
+            "type": "TOPDOWN",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
-            "id": "4a25cf46-8e2a-493d-9209-72adf1552afd",
-            "symbol": "scene_11",
-            "x": 674,
-            "y": 72,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_20",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "3c46b43f-15de-4d1a-983a-71b649d6edca"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "bfb19b9e-9b99-499c-a954-1e0a6363c5e2"
-                            },
-                            "id": "42d8f8c2-29e1-4271-9d40-762a308d35c0"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c9b85340-4073-4146-9112-b4b246df8b78",
-                    "x": 0,
-                    "y": 1
-                }
-            ],
+            "id": "b661cd90-89f1-4fa0-a55e-d02aeac78128",
+            "symbol": "scene_10",
+            "x": 1761.882352941177,
+            "y": 801.4117647058816,
+            "actors": [],
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_SCENE_POP_STATE",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "fadeSpeed": 2
+                        "input": [
+                            "left",
+                            "up",
+                            "down",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
                     },
-                    "id": "6a68917e-bd80-4032-9304-e29170d2fe2f"
+                    "children": {
+                        "true": []
+                    },
+                    "id": "e60f3cad-6943-4dcd-81f0-90fc67ae75a6"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "FRIENDLY DELIVERY",
+                            "By Joan Dark & \nAlexandra Tang",
+                            "Art & SFX by \nJoan Dark",
+                            "Narrative &\nprogramming by\nAlex Tang",
+                            "\"Ice Cream \nPalette\" by \nKerrie Lake",
+                            "\"Crystal Clear\nLoop\" by \nTiptoptomcat",
+                            "\"Farm and Town\nTileset\" by\nTeaceratops Games"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "5ff71591-3ec3-4f20-9019-e95101861af5"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "175926a5-3702-41f5-8345-c578439e1c43",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "right",
+                        "fadeSpeed": 4
+                    },
+                    "id": "9bd4571c-7d57-4a79-8f91-2cf507c678ac"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "5feca226-dc4b-427e-ad1c-abe0d5d87ec8"
         }
     ],
     "backgrounds": [
@@ -11431,6 +11656,16 @@
             "imageHeight": 144,
             "filename": "friendlydelivery_party.png",
             "tileColors": []
+        },
+        {
+            "id": "3e44c817-615e-49e6-b9a0-96b749e83ac0",
+            "name": "friendlydelivery_party_bigfloor",
+            "symbol": "bg_friendlydelivery_party_b",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "friendlydelivery_party_bigfloor.png"
         },
         {
             "id": "05b99f31-734f-49e4-8526-ade0f0878c32",
@@ -20396,7 +20631,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 6,
+                                            "paletteIndex": 0,
                                             "priority": true
                                         },
                                         {
@@ -23572,16 +23807,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "143137bc-d8ca-4907-a592-c73dd678dbef",
-        "startX": 1,
-        "startY": 10,
+        "startSceneId": "175926a5-3702-41f5-8345-c578439e1c43",
+        "startX": 9,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2650,
-        "worldScrollY": 726,
+        "worldScrollX": 158,
+        "worldScrollY": 0,
         "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
