@@ -6795,6 +6795,16 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
+                                                            "All delivered,\nMister Pete!"
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                                    },
+                                                    "id": "a742302d-7fec-458a-a808-86086ae55ec1"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
                                                             "Congratulations,\nson!",
                                                             "You're a full\nfledged delivery\nanimal!"
                                                         ],
@@ -6843,9 +6853,9 @@
                                                         "text": [
                                                             "Oh my...",
                                                             "It seems we're\nto report to ",
-                                                            "the library \nafter our shift.",
-                                                            "Perhaps she'll\nwalk you through",
-                                                            "getting your\nlibrary card."
+                                                            "the mansion\nafter our shift.",
+                                                            "Perhaps she's\nunveiling her",
+                                                            "new greeting\ncard."
                                                         ],
                                                         "avatarId": "13a633b9-0ebf-4515-9082-b4d95b4ae677"
                                                     },
@@ -6863,7 +6873,7 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Hah.. hah.. \nhah..",
+                                                            "Haha...",
                                                             "Maybe, sir."
                                                         ],
                                                         "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
@@ -6875,21 +6885,11 @@
                                                     "args": {
                                                         "text": [
                                                             "Well, we best be\non our way.",
-                                                            "Miss Squeakal\nis very strict."
+                                                            "Better not keep\nher waiting."
                                                         ],
                                                         "avatarId": "13a633b9-0ebf-4515-9082-b4d95b4ae677"
                                                     },
                                                     "id": "eefad3fb-b13d-49d4-a2b2-5d2b6b22d3a8"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "(So I've\nlearned...)"
-                                                        ],
-                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
-                                                    },
-                                                    "id": "b76d032b-7ece-4e0e-96b3-91bb97927c69"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_MOVE_TO",
@@ -6924,6 +6924,13 @@
                                                         "useCollisions": false
                                                     },
                                                     "id": "6e40f036-4da5-4b9e-aa5b-a191da040a71"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_HIDE",
+                                                    "args": {
+                                                        "actorId": "7872c5c9-9512-425e-8fd0-3243acff5a31"
+                                                    },
+                                                    "id": "887b99e0-433f-4716-98b4-d25b4ab95ad8"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
@@ -7017,7 +7024,8 @@
                                                             "Met the \nalmighty",
                                                             "Squeakal, have\nyou?"
                                                         ],
-                                                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                                                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                                        "__collapse": true
                                                     },
                                                     "id": "851671b7-6ff9-47e4-8ec6-d54abbbfa58f"
                                                 },
@@ -7025,7 +7033,8 @@
                                                     "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
                                                         "actorId": "$self$",
-                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
                                                     },
                                                     "id": "7b5acd7c-e85a-4603-be63-97e272dad7ff"
                                                 }
@@ -7044,7 +7053,8 @@
                                                 "Local P.E.\nteacher.",
                                                 "How's the first\nday on the job?"
                                             ],
-                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
                                         },
                                         "id": "0b3b3f3c-910f-48be-9c96-71c3234e22b3"
                                     },
@@ -7052,7 +7062,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "player",
-                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
                                         },
                                         "id": "2a9b4a97-99a5-4e48-b7ad-98df5a314fee"
                                     },
@@ -7066,7 +7077,8 @@
                                                 "I love walks!",
                                                 "And packages!"
                                             ],
-                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
                                         },
                                         "id": "09039ec5-7550-4fbd-912d-aaf7a43d4d3a"
                                     },
@@ -7074,7 +7086,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
                                         },
                                         "id": "dc390e5d-d18e-409b-b428-764e1f363b6b"
                                     },
@@ -7084,7 +7097,8 @@
                                             "text": [
                                                 "You and me both!"
                                             ],
-                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
                                         },
                                         "id": "2ee0d4bb-9975-4149-8427-8d675d2080d5"
                                     },
@@ -7092,7 +7106,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+                                            "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+                                            "__collapse": true
                                         },
                                         "id": "b97b8d77-aff4-415f-b089-9a23b41655c9"
                                     },
@@ -7103,7 +7118,8 @@
                                                 "Speaking of...",
                                                 "Got my package?"
                                             ],
-                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84"
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
                                         },
                                         "id": "5c8797c4-6f7b-42e2-8c4e-d4b50206d4c4"
                                     },
@@ -7111,7 +7127,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "player",
-                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
                                         },
                                         "id": "9e2e9a03-cba6-4cd4-b0d1-d84bb68f988f"
                                     },
@@ -7121,7 +7138,8 @@
                                             "text": [
                                                 "Sure do!"
                                             ],
-                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2"
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
                                         },
                                         "id": "111e14cb-d1a6-4da6-83c1-aecdae2cf94c"
                                     },
@@ -7132,7 +7150,7 @@
                                                 "Here you are,\nMx. Feyline!"
                                             ],
                                             "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "623e7bbd-0f7a-4580-b203-4ba0433d2858"
                                     },
@@ -7140,17 +7158,466 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
                                         },
                                         "id": "5f758577-0e6b-498d-b392-8877c288f59d"
                                     },
                                     {
                                         "command": "EVENT_TEXT",
                                         "args": {
-                                            "text": "",
-                                            "avatarId": ""
+                                            "text": [
+                                                "Thanks a lot, \nPubby!",
+                                                "Appreciated!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
                                         },
                                         "id": "27f407e7-6836-4354-a850-8680cd98eff2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I hope you don't\nmind my asking..",
+                                                "But your box was\nincredibly...",
+                                                "light."
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
+                                        },
+                                        "id": "c7a877b9-a331-4852-afde-ecc899ff9fcc"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "95242a67-f4f4-43f4-8ded-d2ee70250950"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Nyahahaha!",
+                                                "That's cause\nthere's nothing",
+                                                "in it.",
+                                                "It's an empty\nbox."
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "27812961-25e0-43d0-aaaa-99612272d9e3"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "8d028451-70b0-44eb-b3fd-d52544a53e83"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "a0c597fa-d68d-441c-96b1-6ea6698dfdc2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "9ab13930-d66b-4afd-a163-b2444bb12fee"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I love empty\nboxes.",
+                                                "Good place to\nnap between \nclasses.",
+                                                "Portable little\nbeds.",
+                                                "Don't hold up\nwell after a",
+                                                "nightmare \nthough."
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "66108bc2-9d78-4814-9b1e-05e36045550b"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "59ad7329-3b05-4dcc-8677-710a8c5e2f79"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "3ea10495-ea92-4e17-8f34-14630c403ba7"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
+                                            "__collapse": true
+                                        },
+                                        "id": "85311441-dc49-4eef-94e3-327c89914b87"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Anyway... ",
+                                                "Appreciate it,\nPubby!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "77e3b46c-bdca-45ff-b31b-935e54e3862a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Any time, Mx. \nfeyline!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
+                                        },
+                                        "id": "34967092-29a2-451b-b1ea-556331769771"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh! ",
+                                                "Just Cat is\nfine!",
+                                                "Or Fey!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": false
+                                        },
+                                        "id": "c980ca3f-23c5-442c-bf43-0ec49bbfac0f"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "9",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__disableElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Brie calls me \nthat."
+                                                        ],
+                                                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "05745c87-6cc4-4651-952b-b7c7d5fe0435"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "2ab9dff8-36cd-43e4-8b82-1ba91031c7bc"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "02a65aa5-d6ba-4319-bd46-465fd87ca660"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Got it!",
+                                                            "Fey it is!"
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "743ffbdc-8625-476d-8d22-e106564eb753"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e016f2e9-f6b2-40cb-8599-3115e2f578fb"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Got it!",
+                                                            "Cat it is!"
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "af65c7ac-35f3-4d07-8079-63e6c4a0a202"
+                                                }
+                                            ]
+                                        },
+                                        "id": "c620056e-ff46-4eec-8e0c-9e4465aac58f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hey, you going\nto the party \nlater?"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "849d1b83-b3c5-4813-b829-75f516178a20"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "9",
+                                            "__collapseElse": false,
+                                            "__collapse": false,
+                                            "__disableElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Yes!",
+                                                            "Miss Squeakal\ninvited me!"
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "6cd7ec50-b4e4-4489-9b65-b84dc2521a57"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "9ea9df8d-461a-4eb7-b6ab-fbbc99ec4c05"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "457fe126-be51-4d11-ad51-eb146e642dcb"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "What party?"
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "05df2570-3ede-46fd-a135-079ec13cdbf7"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "We're throwing a\nlittle",
+                                                            "retirement party\nfor Pete later\ntoday!",
+                                                            "You should come\nby!",
+                                                            "I think Brie has\nthe invites."
+                                                        ],
+                                                        "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "7e98c21b-0477-4e72-9e5c-f441aac2f738"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "player",
+                                                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "d4070476-d0c7-41c7-b901-58416130ef70"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh!",
+                                                            "I have her \npackage to ",
+                                                            "deliver, so\nI'll stop by."
+                                                        ],
+                                                        "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ad651f69-a65f-4276-95b9-4e61f097c5e6"
+                                                }
+                                            ]
+                                        },
+                                        "id": "015d1a99-650f-439e-9003-47af8526c076"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Great!",
+                                                "I'll be glad to\nsee you there!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "0925ec3e-5c14-4b54-9785-eae2a0e8fdd3"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.5,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "29798c72-9cde-4467-933a-1005d7135ea7"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Pete's a great \nguy.",
+                                                "He really \ndeserves this.",
+                                                "I used to leave\nhim treats",
+                                                "outside the \nschool for his \nroute.",
+                                                "He was always so\nhappy to see it."
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "4252431b-c4cc-44b8-afdd-2cfb2cbf6a7a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "8153e1b8-50a5-4ba9-853e-828c918cbe2c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "But now we've\ngot you!",
+                                                "Hope you like\ntreats!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "33210fd2-a939-4cf0-9163-d0e200bdafb1"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+                                            "__collapse": true
+                                        },
+                                        "id": "f232b442-a523-4e9a-85ff-11196920dfca"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I love them!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
+                                        },
+                                        "id": "2eab6949-1f84-49ea-aca3-434c0f6dde22"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "d8a77f7e-8099-43ab-a5b6-c05b022bdbfa"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Great!",
+                                                "I'll leave you\nplenty.",
+                                                "I'll see you\nlater at the",
+                                                "party.",
+                                                "Don't forget to\nbring Pete!"
+                                            ],
+                                            "avatarId": "b02a9f24-2421-405d-b62a-2be90a16ba84",
+                                            "__collapse": true
+                                        },
+                                        "id": "50b7eedd-69f8-4849-91b7-31895e42983c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "98a9ced0-cf00-4b47-8306-9b774a213a78"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "We'll be there!"
+                                            ],
+                                            "avatarId": "75e9af9f-f8fd-4ef9-a049-5659a36f59d2",
+                                            "__collapse": true
+                                        },
+                                        "id": "05bfeee8-6632-4090-a09d-e30345c78931"
                                     },
                                     {
                                         "command": "EVENT_SET_TRUE",
@@ -7727,7 +8194,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Hahahaha!",
+                                                "Nyahahaha!",
                                                 "What's that look\non your face?",
                                                 "I'm just messing\naround.",
                                                 "You the new\ndelivery dog?"
@@ -7792,7 +8259,8 @@
                     "args": {
                         "variable": "5",
                         "__collapseElse": true,
-                        "__comment": true
+                        "__comment": false,
+                        "__disableElse": true
                     },
                     "children": {
                         "true": [
@@ -23105,15 +23573,15 @@
     ],
     "settings": {
         "startSceneId": "143137bc-d8ca-4907-a592-c73dd678dbef",
-        "startX": 104,
-        "startY": 11,
+        "startX": 1,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3135,
-        "worldScrollY": 639,
+        "worldScrollX": 2650,
+        "worldScrollY": 726,
         "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -23162,7 +23630,10 @@
         "batterylessEnabled": false,
         "favoriteEvents": [
             "EVENT_TEXT",
-            "EVENT_SWITCH_SCENE"
+            "EVENT_SWITCH_SCENE",
+            "EVENT_ACTOR_EMOTE",
+            "EVENT_IF_TRUE",
+            "EVENT_IF_FALSE"
         ],
         "defaultFadeStyle": "white",
         "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
