@@ -2885,7 +2885,7 @@
             "id": "7f41bbac-ee3d-4f2f-925c-1572551023d8",
             "symbol": "scene_3",
             "x": 673.23076923077,
-            "y": 545.2417582417577,
+            "y": 545.0400775694889,
             "actors": [
                 {
                     "name": "Microwave",
@@ -3500,7 +3500,7 @@
                 "04d0c180-b0cc-4122-a59e-4fc187d402ba"
             ],
             "spritePaletteIds": [
-                "default-sprite"
+                "04d0c180-b0cc-4122-a59e-4fc187d402ba"
             ],
             "collisions": [],
             "autoFadeSpeed": 1,
@@ -18643,7 +18643,7 @@
                                         {
                                             "id": "0170a8f2-89ef-417b-bc53-a92c1548b801",
                                             "x": -8,
-                                            "y": 16,
+                                            "y": 17,
                                             "sliceX": 0,
                                             "sliceY": 0,
                                             "palette": 0,
@@ -18728,8 +18728,8 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
+                                            "paletteIndex": 6,
+                                            "priority": true
                                         },
                                         {
                                             "id": "e9ed326e-91d7-4473-9e67-b11601902a35",
@@ -21660,9 +21660,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 300,
-        "worldScrollY": 0,
-        "zoom": 87.5,
+        "worldScrollX": 1292.800048828125,
+        "worldScrollY": 900,
+        "zoom": 212.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -21684,7 +21684,7 @@
             "60848fbf-1b2f-4346-bcc0-1ad9b4880f04",
             "022b93bf-089f-4da4-a924-f568e2523812",
             "e834d259-53b0-4e36-a620-5e835049b267",
-            "default-sprite"
+            "04d0c180-b0cc-4122-a59e-4fc187d402ba"
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
